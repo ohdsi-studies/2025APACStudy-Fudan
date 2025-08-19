@@ -1,0 +1,25 @@
+Package: APACStudyFudan2025
+Type: Package
+Title: A Study Package for Generating Cohort Diagnostics
+Version: 0.0.1
+Author: Gowtham Rao [aut, cre]
+Date: 2023-02-11
+Maintainer: Gowtham Rao <rao@ohdsi.org>
+Description: A package that generates cohort diagnostics for cohort definitions included in the package.
+Depends:
+  R (>= 4.1.0)
+Imports:
+	CohortDiagnostics (>= 3.2.3),
+  CohortGenerator (>= 0.8.0),
+	ParallelLogger (>= 3.2.0),
+	DatabaseConnector (>= 6.0.0),
+  OhdsiSharing,
+  keyring,
+  jsonlite
+Suggests:
+    ROhdsiWebApi
+License: Apache License (>= 2)
+LazyData: TRUE
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Language: en-US
